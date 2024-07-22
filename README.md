@@ -1,4 +1,6 @@
-Este es un pequeño E-commerce, venta regaleria con tres pantalla, hecho en Javascript Vanilla: 1_Pantalla Regaleria: seleccion de productos para agregar al carrito.
+Este es un pequeño E-commerce, venta regaleria con tres pantalla, hecho en Javascript Vanilla: 
+
+1_Pantalla Regaleria: seleccion de productos para agregar al carrito.
 
 2_Pantalla Carrito: donde vemos la seleccion de productos hechos en la pantalla principal, con la posibilidad de eliminar productos, volver al inicio o realizar compra.
 
