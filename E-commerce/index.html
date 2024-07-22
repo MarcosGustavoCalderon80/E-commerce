@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <title>Pachikos Regaleria</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./imgs/logos/portada.jpg" class="img-logo" alt="a">
+    </div>
+    <h2 class="seccionRegaleria">Regaleria:</h2>
+    <div class="irCarrito">
+        <img id="carrito" class="logo" src="./imgs/logos/carrito.png" title="Ir al carrito">
+      <div class="carrito">
+        <p class="cantidadProductos"><span id="productosEnCarrito">0</span></p>
+      </div>
+    </div>
+    <!--CONTAINER-->
+    <div class="search-container">
+      <search>
+        <input type="text" id="inputSearch" class="inputRegaleria" placeholder="Buscar productos por nombre:">
+        <button id="clear-search">&times;</button>
+      </search>
+    </div>
+  </header>
+  <main>
+    <div class="container" id="divContenedor"></div>
+  </main>
+  <!--FOOTER-->
+  <div class="row columna">
+    <div class="col-md-4">
+      <h5>COMUNICATE CON NOSOTROS</h5>
+      <h6> (249)4312599/Fax:(249)4312588</h6>
+      <h6>Tandil/Prov de Bs.As./Av. Santamarina 1590</h6>
+    </div>
+    <div class="col-md-4">
+      <h5>HORARIOS DE ATENCION</h5>
+      <h6>Lunes a Sabados</h6>
+      <h6>9:00 a 18:00</h6>
+    </div>
+    <div class="col-md-4">
+      <h5>Mail:</h5>
+      <a href="mailto:pachikos@hotmail.com">
+        <Pachikos@hotmail class="com">Pachikos
+      </a>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>

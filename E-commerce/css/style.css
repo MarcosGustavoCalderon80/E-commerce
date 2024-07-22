@@ -1,0 +1,262 @@
+/*HEADER*/
+html {
+  min-height: 100%;
+  width: 100% !important;
+}
+header {
+  width:auto;
+}
+h2.seccionRegaleria {
+  background-color: #00abf0;
+  color: #fff;
+  font-size: 25px;
+  padding: 5px;
+  margin: 10px;
+  width: 100%;
+}
+/*PORTADA*/
+img.img-logo {
+  width: 100% !important;
+}
+body {
+  margin: auto;
+}
+/*CONTENEDOR LOGO CARRITO*/
+.irCarrito {
+  display: flex;
+  justify-content: end;
+}
+.linkCarrito {
+  width: 100% !important;
+  display: flex;
+  justify-content: end;
+}
+img#carrito.logo {
+  width: 40px;
+  cursor: pointer;
+}
+.carrito {
+  width: 20px;
+}
+p.cantidadProductos {
+  width: 10px;
+}
+/*LOGO CARRITO*/
+img.logo {
+  opacity: 1;
+  width: 5%;
+}
+/*INPUT COMPRA*/
+#clear-search {
+  height: 35px;
+  width: 30px;
+  border-radius: 5px;
+  padding: 0px 0px 10px 0px;
+  font-size: 20px;
+  background-color: #00f048;
+}
+.inputRegaleria {
+  border-radius: 5px;
+  width: 50%;
+  height: 30px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+}
+/*BOTONES DE COMPRA POR ART*/
+.button-compra{
+  margin: 0px 50px 0px 50px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #058ff2;
+  color: aliceblue;
+  border: none;
+  padding: 5px;
+}
+div.card-body {
+  flex: none;
+}
+/*TITULOS SECTION*/
+th#tablehead {
+  width: 600px;
+  display: table-cell;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px 80px 0px 80px;
+}
+.tablaCarrito {
+  width: 100% !important;
+  border: 1px solid #ddd;
+}
+main {
+  width: 100% !important;
+  background-color: #8cd8f6;
+  margin: 10px;
+}
+search {
+  width: 100%;
+  background-color: #8cd8f6;
+  margin: 10px;
+}
+tbody.tabla {
+  width: 100% !important;
+}
+h5.Total {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.totalCarrito {
+  font-size: 25px;
+  font-family: monospace;
+}
+p.id {
+  width: 296px;
+}
+th.id {
+  width: auto;
+}
+.imagenCarrito {
+  display: flex;
+  justify-content: center;
+}
+/*BODY HISTORIAL*/
+.bodyHistorial {
+  margin: 10px;
+}
+h2 {
+  color: rgb(70, 90, 36);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+h3 {
+  margin-left: 10px;
+  color: cadetblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+.totalCarrito {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+}
+p.contTotal {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+}
+/*BOTON ELIMINAR LS*/
+#eliminarLS {
+  border-radius: 5px;
+  background-color: rgb(77, 68, 68);
+  color: aliceblue;
+  width: 150px;
+  font-size: 15px;
+  margin: 20px;
+}
+#descargarHistorial {
+  border-radius: 5px;
+  background-color: rgb(26, 158, 22);
+  color: aliceblue;
+  width: 150px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+#enviarHistorialPorMail {
+  border-radius: 5px;
+  background-color: rgb(40, 105, 191);
+  color: aliceblue;
+  width: 150px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+#email-form {
+  margin: 10px;
+}
+.inputEmail , .inputNombre {
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+  margin: 10px;
+}
+/*LISTA DE COMPRAS*/
+#historialCompras {
+  margin: 10px;
+  padding: 5PX;
+  background-color: #e7f2f7;
+  font-size: 15px;
+}
+h4 {
+  padding: 0px 90px 0px 90px;
+}
+/*SEPARADOR DE CARDS*/
+.container {
+  width: 100% !important;
+  display: ruby;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+div.div-card {
+  width: 300px;
+  height: 580px;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+img.imagen {
+  text-align: center;
+  justify-content: space-between;
+  color: aliceblue;
+  margin: 22px;
+  width: 250px;
+}
+p.stock, h5.precio, h5.nombre td.h5.art {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+p.descripcion {
+  height: 80px;
+  width: 296px;
+}
+/* FOOTER DATOS DE CONTACTO*/
+.columna {
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: solid rgb(117, 117, 248);
+}
+.row.columna {
+  margin: 10px;
+  width: 100%;
+}
+/*HTML PEDIDO*/
+header.pedido,
+div.logo-pedido {
+  background-color: #fff;
+}
+a.ir-inicio {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+img.img-logo-pedido {
+  justify-content: space-between;
+  width: 100% !important;
+  background-color: #fff;
+}
+div.container-header {
+  width: 100% !important;
+  padding: 2px;
+  height: 32px;
+  background-color: #00abf0;
+}
+.historialComprasBajo, a#ir-inicio.irInicio {
+  color: white;
+}
+
+
+
+ 

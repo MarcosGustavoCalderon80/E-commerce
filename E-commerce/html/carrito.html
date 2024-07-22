@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/carrito.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <title>Pedido de compra</title>
+</head>
+
+<body>
+    <header class="pedido">
+        <div class="linkCarrito">
+            <img src="../imgs/logos/portada.jpg" class="img-logo-pedido" alt="a">
+        </div>
+        <h2 class="nombre-sitio">Pedido de compra:</h2>
+        <div class="container-header">
+            <a class="ir-inicio" href="../index.html"><< INICIO</a>
+            <a href="../html/historialCarrito.html" id="historialCompras" class="historialComprasBajo"
+                title="Ver lista utimas compras">VER HISTORIAL CARRITO >></a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" id="tablehead">ID</th>
+                        <th scope="col" id="tablehead">Producto</th>
+                        <th scope="col" id="tablehead">Descripción</th>
+                        <th scope="col" id="tablehead">Importe</th>
+                        <th scope="col" id="tablehead">Eliminar producto</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div class="totalCarrito">
+                <p class="contTotal">TOTAL COMPRA:<span id="importeTotalCarrito"></span></p>
+            </div>
+        </section>
+    </main>
+    <div class="mjeVacio">
+        <div id="mjeCarritoVacio" style="display:none;"></div>
+    </div>
+    <div class="btn-comprarSeguir">
+        <div class="btn-realizar">
+            <button class="btnRealizarCom" id="btnComprar">Realizar compra</button>
+        </div>
+        <div class="btn-seguir">
+            <a href="../index.html" class="btn-seguir">Seguir comprando</a>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <div class="row columna">
+        <div class="col-md-4">
+            <h5>COMUNICATE CON NOSOTROS</h5>
+            <h6>(249)4312599/Fax:(249)4312588</h6>
+            <h6>Tandil/Prov de Bs.As./Av. Santamarina 1590</h6>
+        </div>
+        <div class="col-md-4">
+            <h5>HORARIOS DE ATENCION</h5>
+            <h6>Lunes a Sabados</h6>
+            <h6>9:00 a 18:00</h6>
+        </div>
+        <div class="col-md-4">
+            <h5>Mail:</h5>
+            <a href="mailto:pachikos@hotmail.com">
+                <Pachikos@hotmail class="com">Pachikos
+            </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Historial carrito</title>
+</head>
+<body class="bodyHistorial">
+    <div>
+        <h2>Historial ultimas compras:</h2>
+    </div>
+    <div class="container-header">
+        <a id="ir-inicio" class="irInicio" href="../html/carrito.html"><< ATRAS</a>
+        <a id="ir-inicio" class="irInicio" href="../index.html"> || << INICIO</a>
+    </div>
+    <div>
+        <h3>Lista de compras:</h3>
+        <h5 id="historialCompras"></h5>
+    </div>
+    <div class="totalCarrito">
+        <p class="contTotal">TOTAL COMPRA:<span id="importeTotalCarrito"></span></p>
+    </div>
+    <button id="descargarHistorial">Descargar Historial</button>
+    <button id="eliminarLS">EliminarLS</button>
+    <h3>Enviar pedido por email:</h3>
+    <form id="email-form">
+        <label for="email">Ingrese su email:</label>
+        <input class="inputEmail" type="email" id="email" name="email" required>
+        <label for="nombre">Ingrese nombre y apellido:</label>
+        <input class="inputNombre" type="text" id="nombre" name="nombre" required>
+        <button id="enviarHistorialPorMail">Enviar por email</button>
+    </form>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "w9bF-N0-sViCz5E16",
+        });
+    })();
+    </script>
+    <script src="/js/carrito.js"></script>
+    <script src="/js/historialCarrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

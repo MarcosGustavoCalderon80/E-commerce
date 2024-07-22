@@ -1,0 +1,223 @@
+/* BOX SIZING*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+/* GLOBAL */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 10px;
+}
+/* HEADER */
+header {
+  text-align: center;
+}
+header .linkCarrito {
+  display: inline-block;
+  margin-right: 20px;
+}
+/*PORTADA*/
+img.img-logo {
+  width: 100% !important;
+}
+header .img-logo-pedido {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+}
+header .nombre-sitio {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1280ab;
+} 
+  header .container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00abf0;
+  height: 32px;
+  padding: 5px;
+}
+header .ir-inicio {
+  color: #fff;
+  text-decoration: none;
+}
+/*BOTON ELIMINAR*/
+  button.btn-eliminar {
+  border-radius: 5px;
+  background-color: red;
+  color: aliceblue;
+  width: 60px;
+  font-size: 15px;
+  cursor: pointer;
+}
+/*MENSAJE EL CARRITO ESTA VACIO*/
+.mjeVacio {
+  display: flex;
+  justify-content: center;
+}
+div#mensajeCarritoVacio {
+  width: 40%;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+  background-color: #ef6666;
+  color: white;
+}
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+main section {
+background-color: #8cd8f6;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+main table {
+  width: 100%;
+  border-collapse: collapse;
+}
+main th, main td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+main th {
+  background-color: #f0f0f0;
+}
+main .totalCarrito {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+}
+p.contTotal {
+  padding: 5px;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+}
+/*BOTONES REALIZAR COMPRAR/SEGUIR COMPRANDO*/
+.btn-comprarSeguir {
+  display: flex;
+  justify-content: space-between;
+}
+#ir-inicio {
+  color: black;
+}
+.historialComprasBajo, a#ir-inicio.irInicio {
+  color: white;
+}
+img.imagen {
+  text-align: center;
+  justify-content: space-between;
+  color: aliceblue;
+  margin: 22px;
+  width: 250px;
+}
+/*BOTON CARRITO REALIZAR COMPRA*/
+.btnRealizarCom {
+  margin: 1px;
+  font-size: 20px;
+  width: 250px;
+  height: 30px;
+  padding: 0px 20px;
+  border-radius: 5px;
+  background-color: #12ab6b;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+/*BTN SEGUIR COMPRANDO*/
+.btn-seguir {
+  margin: 1px;
+  font-size: 20px;
+  width: 250px;
+  height: 30px;
+  padding: 0px 20px;
+  border-radius: 5px;
+  background-color: #1280ab;
+  color: aliceblue;
+  border: none;
+}
+/* MEDIAS QUERYS RESPONSIVES */
+@media (max-width: 768px) {
+  main section {
+    padding: 10px;
+  }
+  main table {
+    font-size: 14px;
+  }
+  .btn-comprarSeguir {
+    flex-direction: column;
+  }
+  .btn-realizar {
+    margin-bottom: 20px;
+  }
+  .row.columna {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    flex-basis: 100%;
+    margin: 10px;
+  }
+}
+@media (max-width: 480px) {
+  main section {
+    padding: 5px;
+  }
+  main table {
+    font-size: 12px;
+  }
+  .btn-comprarSeguir {
+    flex-direction: column;
+  }
+  .btn-realizar {
+    margin-bottom: 10px;
+  }
+  .row.columna {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    flex-basis: 100%;
+    margin: 5px;
+  }
+}
+/* FOOTER DATOS DE CONTACTO*/
+.columna {
+  margin: 2px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  border: solid 5px rgb(117, 117, 248);
+  border-radius: 5px;
+}
+.row.columna {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  margin: 65px 0px 0px 0px;
+}
+.col-md-4 {
+  flex-basis: 33.33%;
+  margin: 20px;
+}
+.col-md-4 h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.col-md-4 h6 {
+  margin-bottom: 10px;
+}
